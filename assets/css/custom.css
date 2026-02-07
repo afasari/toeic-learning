@@ -2,6 +2,11 @@
    TOEIC Learning Guide - Custom Theme
    Clean, simple, and responsive
 ============================================ */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+/* ============================================
+   CSS Variables (Light/Dark Themes)
+============================================ */
 
 /* ============================================
    CSS Variables (Light/Dark Themes)
@@ -189,25 +194,11 @@ a:hover {
   box-shadow: var(--shadow-sm);
 }
 
-.dark-mode-toggle .icon-sun,
-.dark-mode-toggle .icon-moon {
-  font-size: 1.2rem;
-}
-
-body.theme-dark .dark-mode-toggle .icon-sun {
-  display: block;
-}
-
-body.theme-dark .dark-mode-toggle .icon-moon {
-  display: none;
-}
-
-body.theme-light .dark-mode-toggle .icon-sun {
-  display: none;
-}
-
-body.theme-light .dark-mode-toggle .icon-moon {
-  display: block;
+.dark-mode-toggle button:hover {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+  transform: scale(1.05);
+  box-shadow: var(--shadow-sm);
 }
 
 /* ============================================
@@ -225,6 +216,20 @@ body.theme-light .dark-mode-toggle .icon-moon {
 /* ============================================
    Navigation (Mobile Menu)
 ============================================ */
+.dark-mode-toggle .icon-sun,
+.dark-mode-toggle .icon-moon {
+  display: block;
+  opacity: 1;
+  transition: opacity var(--transition-fast);
+}
+
+body.theme-light .dark-mode-toggle .icon-sun {
+  opacity: 0;
+}
+
+body.theme-dark .dark-mode-toggle .icon-moon {
+  opacity: 0;
+}
 .site-nav {
   display: none;
 }
@@ -831,4 +836,3 @@ blockquote {
 /* ============================================
    Import Font
 ============================================ */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
