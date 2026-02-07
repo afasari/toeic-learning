@@ -29,13 +29,10 @@ jobs:
           bundler-cache: true
 
       - name: Install dependencies
-        run: |
-          gem install jekyll
-          gem install jekyll-seo-tag
-          gem install jekyll-sitemap
+        run: bundle install
 
       - name: Build site
-        run: jekyll build
+        run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
 
