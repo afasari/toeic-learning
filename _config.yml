@@ -4,8 +4,7 @@ description: Comprehensive TOEIC preparation guide with grammar, vocabulary, and
 baseurl: "/toeic-learning"
 url: "https://afasari.github.io"
 
-# Theme Settings
-theme: minima
+# Theme Settings - Custom theme
 show_excerpts: true
 
 # Navigation
