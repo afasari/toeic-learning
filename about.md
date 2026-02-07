@@ -48,19 +48,19 @@ The goal of this guide is to provide:
 ## How to Use This Guide
 
 ### 1-Day Before Exam
-Follow the recommended 1-day study schedule in the [Preparation Guide](./TOEIC-PREPARATION-GUIDE.md#saran-jadwal-belajar-1-hari-sebelum-ujian).
+Follow recommended 1-day study schedule in the [Preparation Guide](./TOEIC-PREPARATION-GUIDE.html#saran-jadwal-belajar-1-hari-sebelum-ujian).
 
 ### Multi-Week Study Plan
-Use the comprehensive 6-week study plan for thorough preparation.
+Use comprehensive 6-week study plan for thorough preparation.
 
 ### Quick Reference
-Use the [Quick Reference](./QUICK-REFERENCE.md) cheatsheet for last-minute review.
+Use the [Quick Reference](./QUICK-REFERENCE.html) cheatsheet for last-minute review.
 
 ### Practice
-Test your knowledge with the interactive quizzes:
-- [Grammar Quiz](./quizzes/grammar-quiz)
-- [Vocabulary Quiz](./quizzes/vocabulary-quiz)
-- [Listening Quiz](./quizzes/listening-quiz)
+Test your knowledge with interactive quizzes:
+- [Grammar Quiz](./quizzes/grammar-quiz.html)
+- [Vocabulary Quiz](./quizzes/vocabulary-quiz.html)
+- [Listening Quiz](./quizzes/listening-quiz.html)
 
 ## Features
 

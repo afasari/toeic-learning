@@ -10,28 +10,28 @@ Complete preparation guide for achieving your target TOEIC score. This comprehen
 ## 🎯 Quick Navigation
 
 ### Test Overview
-- [TOEIC Structure & Format](TOEIC-STRUCTURE.md) - Complete test breakdown
-- [Preparation Guide](TOEIC-PREPARATION-GUIDE.md) - Study schedule and strategies
+- [TOEIC Structure & Format](TOEIC-STRUCTURE.html) - Complete test breakdown
+- [Preparation Guide](TOEIC-PREPARATION-GUIDE.html) - Study schedule and strategies
 
 ### Listening Section (Part 1-4)
-- [Listening Tips](LISTENING-TIPS.md) - Strategies for all listening parts
+- [Listening Tips](LISTENING-TIPS.html) - Strategies for all listening parts
 
 ### Reading Section (Part 5-7)
-- [Reading Tips](READING-TIPS.md) - Reading comprehension strategies
+- [Reading Tips](READING-TIPS.html) - Reading comprehension strategies
 
 ### Grammar Fundamentals
-- [Complete Tenses Guide](TENSES-COMPLETE.md) - All 12 tenses explained
-- [Complete Grammar](GRAMMAR-COMPLETE.md) - Parts of speech and rules
-- [Advanced Grammar](ADVANCED-GRAMMAR.md) - Conditionals, passive voice, and more
+- [Complete Tenses Guide](TENSES-COMPLETE.html) - All 12 tenses explained
+- [Complete Grammar](GRAMMAR-COMPLETE.html) - Parts of speech and rules
+- [Advanced Grammar](ADVANCED-GRAMMAR.html) - Conditionals, passive voice, and more
 
 ### Vocabulary & Reference
-- [TOEIC Vocabulary](VOCABULARY-TOEIC.md) - Business terms and idioms
-- [Quick Reference](QUICK-REFERENCE.md) - Cheatsheet and test day tips
+- [TOEIC Vocabulary](VOCABULARY-TOEIC.html) - Business terms and idioms
+- [Quick Reference](QUICK-REFERENCE.html) - Cheatsheet and test day tips
 
 ### Practice Quizzes
-- [Grammar Quiz](quizzes/grammar-quiz) - Test your grammar knowledge
-- [Vocabulary Quiz](quizzes/vocabulary-quiz) - Vocabulary practice
-- [Listening Quiz](quizzes/listening-quiz) - Listening strategies quiz
+- [Grammar Quiz](quizzes/grammar-quiz.html) - Test your grammar knowledge
+- [Vocabulary Quiz](quizzes/vocabulary-quiz.html) - Vocabulary practice
+- [Listening Quiz](quizzes/listening-quiz.html) - Listening strategies quiz
 
 ---
 
@@ -58,15 +58,6 @@ Complete preparation guide for achieving your target TOEIC score. This comprehen
 3. **Build Vocabulary** - Learn business terminology and common expressions
 4. **Time Management** - Practice with timed tests
 5. **Review Mistakes** - Learn from your errors
-
----
-
-## 🔍 Search for Topics
-
-<div id="search-container">
-  <input type="text" id="search-input" placeholder="Search topics..." />
-  <div id="search-results"></div>
-</div>
 
 ---
 

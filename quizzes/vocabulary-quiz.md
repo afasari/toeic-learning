@@ -139,6 +139,6 @@ Test your TOEIC vocabulary knowledge!
 
 ## Want to Learn More?
 
-- Study [TOEIC Vocabulary](../VOCABULARY-TOEIC.md) - Comprehensive word lists
-- Review [Quick Reference](../QUICK-REFERENCE.md) - Common words tested
-- Check [Business Terms](../VOCABULARY-TOEIC.md#business-terminology) in the vocabulary guide
+- Study [TOEIC Vocabulary](../VOCABULARY-TOEIC.html) - Comprehensive word lists
+- Review [Quick Reference](../QUICK-REFERENCE.html) - Common words tested
+- Check [Business Terms](../VOCABULARY-TOEIC.html#business-terminology) in the vocabulary guide

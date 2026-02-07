@@ -131,14 +131,14 @@ Test your grammar knowledge with these practice questions!
 
 ## Tips for Grammar Questions
 
-1. **Read the entire sentence** before choosing an answer
+1. **Read** entire sentence before choosing an answer
 2. **Pay attention to context** - tense, subject, and surrounding words
 3. **Watch for key words** like "if," "although," "despite," "suggest"
 4. **Check subject-verb agreement** carefully
-5. **Consider the meaning** - grammar must make sense in context
+5. **Consider** meaning - grammar must make sense in context
 
 ## Want More Practice?
 
-- Review [Complete Tenses Guide](../TENSES-COMPLETE.md)
-- Study [Complete Grammar](../GRAMMAR-COMPLETE.md)
-- Practice [Advanced Grammar](../ADVANCED-GRAMMAR.md)
+- Review [Complete Tenses Guide](../TENSES-COMPLETE.html)
+- Study [Complete Grammar](../GRAMMAR-COMPLETE.html)
+- Practice [Advanced Grammar](../ADVANCED-GRAMMAR.html)

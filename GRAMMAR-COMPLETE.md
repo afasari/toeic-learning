@@ -206,7 +206,7 @@ Semua grammar lengkap: Parts of Speech, Subject-Verb Agreement, dan lainnya
 - The plan **looks** good.
 
 #### Verb Tenses
-See [TENSES-COMPLETE.md](./TENSES-COMPLETE.md) for all 12 tenses
+See [TENSES-COMPLETE.md](./TENSES-COMPLETE.html) for all 12 tenses
 
 ---
 
@@ -1101,4 +1101,4 @@ Work in pairs
 
 ---
 
-**Next: [Advanced Grammar](./ADVANCED-GRAMMAR.md)**
+**Next: [Advanced Grammar](./ADVANCED-GRAMMAR.html)**

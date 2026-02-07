@@ -1245,4 +1245,4 @@ In formal English, preposition comes before relative pronoun.
 
 ---
 
-**Next: [TOEIC Vocabulary](./VOCABULARY-TOEIC.md)**
+**Next: [TOEIC Vocabulary](./VOCABULARY-TOEIC.html)**

@@ -146,6 +146,6 @@ Test your knowledge of listening test strategies!
 
 ## Want to Learn More?
 
-- Study [Listening Tips](../LISTENING-TIPS.md) - Detailed strategies for all parts
-- Review [TOEIC Structure](../TOEIC-STRUCTURE.md) - Test format overview
-- Check [Quick Reference](../QUICK-REFERENCE.md) - Common mistakes to avoid
+- Study [Listening Tips](../LISTENING-TIPS.html) - Detailed strategies for all parts
+- Review [TOEIC Structure](../TOEIC-STRUCTURE.html) - Test format overview
+- Check [Quick Reference](../QUICK-REFERENCE.html) - Common mistakes to avoid

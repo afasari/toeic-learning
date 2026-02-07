@@ -720,4 +720,4 @@ Question types:
 
 ---
 
-**Next: [Reading Section Tips](./READING-TIPS.md)**
+**Next: [Reading Section Tips](./READING-TIPS.html)**
