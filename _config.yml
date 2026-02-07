@@ -1,7 +1,7 @@
 # Site Settings
 title: TOEIC Learning Guide
 description: Comprehensive TOEIC preparation guide with grammar, vocabulary, and test strategies
-baseurl: ""
+baseurl: "/toeic-learning"
 url: "https://afasari.github.io"
 
 # Theme Settings
