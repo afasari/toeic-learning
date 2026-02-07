@@ -1,3 +1,8 @@
+---
+layout: default
+title: TOEIC Structure & Overview
+---
+
 # TOEIC Structure & Overview
 Complete breakdown of TOEIC Test format dengan tips strategis
 

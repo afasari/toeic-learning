@@ -1,3 +1,8 @@
+---
+layout: default
+title: Complete Tenses Guide
+---
+
 # Complete Tenses Guide
 Semua tenses dalam bahasa Inggris lengkap dengan rumus, penggunaan, dan contoh
 

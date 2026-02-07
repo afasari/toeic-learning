@@ -1,3 +1,8 @@
+---
+layout: default
+title: Complete Grammar
+---
+
 # Complete Grammar Guide
 Semua grammar lengkap: Parts of Speech, Subject-Verb Agreement, dan lainnya
 

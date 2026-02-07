@@ -1,0 +1,43 @@
+# Site Settings
+title: TOEIC Learning Guide
+description: Comprehensive TOEIC preparation guide with grammar, vocabulary, and test strategies
+baseurl: ""
+url: "https://afasari.github.io"
+
+# Theme Settings
+theme: minima
+show_excerpts: true
+
+# Navigation
+header_pages:
+  - about.md
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+# Markdown Settings
+markdown: kramdown
+highlighter: rouge
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

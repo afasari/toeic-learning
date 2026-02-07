@@ -1,3 +1,8 @@
+---
+layout: default
+title: TOEIC Preparation Guide
+---
+
 # TOEIC Preparation Guide 900+
 Complete preparation guide untuk skor maksimal TOEIC
 

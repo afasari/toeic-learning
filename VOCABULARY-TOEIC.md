@@ -1,3 +1,8 @@
+---
+layout: default
+title: TOEIC Vocabulary
+---
+
 # TOEIC Vocabulary
 Vocabulary penting untuk TOEIC dengan kategori & contoh penggunaan
 

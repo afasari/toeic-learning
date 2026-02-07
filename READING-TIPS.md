@@ -1,3 +1,8 @@
+---
+layout: default
+title: Reading Section Tips
+---
+
 # Reading Section Tips (Part 5-7)
 Complete cheatsheet untuk TOEIC Reading Section
 

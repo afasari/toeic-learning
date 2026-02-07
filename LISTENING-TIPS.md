@@ -1,3 +1,8 @@
+---
+layout: default
+title: Listening Section Tips
+---
+
 # Listening Section Tips (Part 1-4)
 Complete cheatsheet untuk TOEIC Listening Section
 

@@ -1,3 +1,8 @@
+---
+layout: default
+title: Advanced Grammar
+---
+
 # Advanced Grammar Guide
 Grammar tingkat lanjut: Conditionals, Passive Voice, Reported Speech, dll
 

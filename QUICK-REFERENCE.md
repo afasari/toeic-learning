@@ -1,3 +1,8 @@
+---
+layout: default
+title: Quick Reference & Cheatsheet
+---
+
 # Quick Reference & Cheatsheet
 Ringkasan lengkap tips, trick, dan informasi penting untuk TOEIC
 

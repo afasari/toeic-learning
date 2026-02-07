@@ -1,0 +1,484 @@
+/* CSS Variables for Light/Dark Themes */
+:root {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f6f8fa;
+  --text-primary: #24292e;
+  --text-secondary: #586069;
+  --border-color: #e1e4e8;
+  --accent-color: #0366d6;
+  --accent-hover: #024b9e;
+  --code-bg: #f6f8fa;
+  --header-bg: #ffffff;
+  --nav-bg: #ffffff;
+  --blockquote-bg: #f6f8fa;
+  --table-bg: #ffffff;
+  --table-hover: #f6f8fa;
+}
+
+body.theme-dark {
+  --bg-primary: #0d1117;
+  --bg-secondary: #161b22;
+  --text-primary: #c9d1d9;
+  --text-secondary: #8b949e;
+  --border-color: #30363d;
+  --accent-color: #58a6ff;
+  --accent-hover: #79c0ff;
+  --code-bg: #161b22;
+  --header-bg: #0d1117;
+  --nav-bg: #0d1117;
+  --blockquote-bg: #161b22;
+  --table-bg: #0d1117;
+  --table-hover: #161b22;
+}
+
+/* Base Styles */
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header Styles */
+.site-header {
+  background-color: var(--header-bg);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.site-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+.header-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Dark Mode Toggle */
+.dark-mode-toggle button {
+  background: none;
+  border: 2px solid var(--border-color);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.dark-mode-toggle button:hover {
+  background-color: var(--bg-secondary);
+  border-color: var(--accent-color);
+}
+
+.dark-mode-toggle .icon-moon {
+  display: none;
+}
+
+body.theme-dark .dark-mode-toggle .icon-sun {
+  display: none;
+}
+
+body.theme-dark .dark-mode-toggle .icon-moon {
+  display: inline;
+}
+
+/* Search Styles */
+.search-container {
+  position: relative;
+}
+
+#search-input {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-size: 0.9rem;
+  width: 200px;
+  transition: width 0.3s ease;
+}
+
+#search-input:focus {
+  outline: none;
+  border-color: var(--accent-color);
+  width: 280px;
+}
+
+#search-results {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  max-height: 400px;
+  overflow-y: auto;
+  display: none;
+  z-index: 1000;
+}
+
+#search-results.show {
+  display: block;
+}
+
+.search-result-item {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--border-color);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.search-result-item:last-child {
+  border-bottom: none;
+}
+
+.search-result-item:hover {
+  background-color: var(--bg-secondary);
+}
+
+.search-result-title {
+  font-weight: 600;
+  color: var(--accent-color);
+  margin-bottom: 0.25rem;
+}
+
+.search-result-excerpt {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+/* Navigation Styles */
+.site-nav {
+  margin-top: 1rem;
+}
+
+.page-link {
+  color: var(--text-secondary);
+  text-decoration: none;
+  margin-right: 1.5rem;
+  transition: color 0.2s ease;
+}
+
+.page-link:hover {
+  color: var(--accent-color);
+}
+
+/* Sidebar Navigation */
+.wrapper {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 2rem;
+  padding-top: 2rem;
+}
+
+.sidebar-nav {
+  position: sticky;
+  top: 2rem;
+  max-height: calc(100vh - 4rem);
+  overflow-y: auto;
+  padding-right: 1rem;
+}
+
+.sidebar-section {
+  margin-bottom: 1.5rem;
+}
+
+.sidebar-section h3 {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--accent-color);
+  margin-bottom: 0.5rem;
+}
+
+.sidebar-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-nav li {
+  margin-bottom: 0.25rem;
+}
+
+.sidebar-nav a {
+  color: var(--text-secondary);
+  text-decoration: none;
+  display: block;
+  padding: 0.25rem 0;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  font-size: 0.9rem;
+}
+
+.sidebar-nav a:hover {
+  color: var(--accent-color);
+  background-color: var(--bg-secondary);
+  padding-left: 0.5rem;
+}
+
+/* Main Content */
+.page-content {
+  background-color: var(--bg-primary);
+  min-height: calc(100vh - 200px);
+}
+
+/* Typography Enhancements */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-primary);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  line-height: 1.25;
+}
+
+h1 {
+  font-size: 2rem;
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.25rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent-hover);
+  text-decoration: underline;
+}
+
+/* Code Blocks */
+code {
+  background-color: var(--code-bg);
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  font-size: 0.9em;
+  font-family: 'Courier New', monospace;
+}
+
+pre {
+  background-color: var(--code-bg);
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+pre code {
+  background: none;
+  padding: 0;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  background-color: var(--table-bg);
+}
+
+th, td {
+  padding: 0.75rem;
+  text-align: left;
+  border: 1px solid var(--border-color);
+}
+
+th {
+  background-color: var(--bg-secondary);
+  font-weight: 600;
+}
+
+tr:hover {
+  background-color: var(--table-hover);
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid var(--accent-color);
+  padding-left: 1rem;
+  margin: 1rem 0;
+  background-color: var(--blockquote-bg);
+  color: var(--text-secondary);
+}
+
+/* Lists */
+ul, ol {
+  margin: 1rem 0;
+  padding-left: 2rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Footer */
+.site-footer {
+  background-color: var(--bg-secondary);
+  border-top: 1px solid var(--border-color);
+  padding: 2rem 0;
+  margin-top: 3rem;
+}
+
+.site-footer p {
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+/* Quiz Styles */
+.quiz-container {
+  background-color: var(--bg-secondary);
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+.question {
+  margin-bottom: 2rem;
+}
+
+.question h3 {
+  margin-bottom: 1rem;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.option {
+  padding: 0.75rem;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.option:hover {
+  background-color: var(--accent-color);
+  color: white;
+  border-color: var(--accent-color);
+}
+
+.option.selected {
+  background-color: var(--accent-color);
+  color: white;
+  border-color: var(--accent-color);
+}
+
+.option.correct {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.option.incorrect {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.quiz-score {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 2rem 0;
+  color: var(--accent-color);
+}
+
+.quiz-button {
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s ease;
+}
+
+.quiz-button:hover {
+  background-color: var(--accent-hover);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar-nav {
+    position: static;
+    max-height: none;
+    padding-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .header-content {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  #search-input {
+    width: 100%;
+  }
+
+  #search-input:focus {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .site-header,
+  .site-footer,
+  .sidebar-nav,
+  .dark-mode-toggle,
+  .search-container {
+    display: none;
+  }
+
+  body {
+    background-color: white;
+    color: black;
+  }
+}
