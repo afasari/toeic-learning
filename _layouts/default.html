@@ -20,13 +20,14 @@
       <div class="header-content">
         <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title | default: site.github.repository_name }}</a>
 
-        <div class="header-actions">
-          {% include search.html %}
+         <div class="header-actions">
           {% include dark-mode-toggle.html %}
           <input type="checkbox" id="menu-toggle" class="menu-toggle" />
           <label for="menu-toggle" class="menu-button">
-            <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
-              <path d="M3 18h18c0.55 0 1-.45 1-1V5c0-.55-.45-1-1-1H3c-.55 0-1 .45-1 1v12c0 .55.45 1 1 1zm1.5 0h-3v-6h-2.5c-.83 0-1.5-.67-1.5H7c-.83 0-1.5-.67-1.5H3v6h3c.83 0 1.5.67 1.5H9c.83 0 1.5.67 1.5h3z"/>
+            <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="3" y1="12" x2="21" y2="12" />
+              <line x1="3" y1="18" x2="21" y2="18" />
+              <line x1="3" y1="6" x2="21" y2="6" />
             </svg>
           </label>
         </div>
@@ -62,8 +63,7 @@
     </div>
   </footer>
 
-  <script src="{{ '/assets/js/dark-mode.js' | relative_url }}"></script>
-  <script src="{{ '/assets/js/search.js' | relative_url }}"></script>
+   <script src="{{ '/assets/js/dark-mode.js' | relative_url }}"></script>
   {% if page.layout == 'quiz' %}
     <script src="{{ '/assets/js/quiz.js' | relative_url }}"></script>
   {% endif %}

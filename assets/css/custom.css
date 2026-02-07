@@ -159,6 +159,70 @@ a:hover {
 }
 
 /* ============================================
+   Dark Mode Toggle
+============================================ */
+.dark-mode-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+}
+
+.dark-mode-toggle button {
+  background-color: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.dark-mode-toggle button:hover {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+  transform: scale(1.05);
+  box-shadow: var(--shadow-sm);
+}
+
+.dark-mode-toggle .icon-sun,
+.dark-mode-toggle .icon-moon {
+  font-size: 1.2rem;
+}
+
+body.theme-dark .dark-mode-toggle .icon-sun {
+  display: block;
+}
+
+body.theme-dark .dark-mode-toggle .icon-moon {
+  display: none;
+}
+
+body.theme-light .dark-mode-toggle .icon-sun {
+  display: none;
+}
+
+body.theme-light .dark-mode-toggle .icon-moon {
+  display: block;
+}
+
+/* ============================================
+   Search Styles (Removed)
+============================================ */
+.search-container {
+  display: none;
+}
+
+#search-input,
+#search-results {
+  display: none;
+}
+
+/* ============================================
    Navigation (Mobile Menu)
 ============================================ */
 .site-nav {
