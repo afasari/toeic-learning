@@ -216,12 +216,15 @@ a:hover {
 /* ============================================
    Navigation (Mobile Menu)
 ============================================ */
-.dark-mode-toggle .icon-sun,
-.dark-mode-toggle .icon-moon {
-  display: block;
-  opacity: 1;
-  transition: opacity var(--transition-fast);
+
+#search-input,
+#search-results {
+  display: none;
 }
+
+/* ============================================
+   Navigation (Mobile Menu)
+============================================ */
 
 body.theme-light .dark-mode-toggle .icon-sun {
   opacity: 0;

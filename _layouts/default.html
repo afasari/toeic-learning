@@ -14,14 +14,14 @@
   {% endif %}
 </head>
 
-<body class="theme-light">
+  <body>
+  <header class="site-header">
   <header class="site-header">
     <div class="container">
       <div class="header-content">
         <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title | default: site.github.repository_name }}</a>
 
-         <div class="header-actions">
-          {% include dark-mode-toggle.html %}
+        <div class="header-actions">
           <input type="checkbox" id="menu-toggle" class="menu-toggle" />
           <label for="menu-toggle" class="menu-button">
             <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -63,7 +63,7 @@
     </div>
   </footer>
 
-   <script src="{{ '/assets/js/dark-mode.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/quiz.js' | relative_url }}"></script>
   {% if page.layout == 'quiz' %}
     <script src="{{ '/assets/js/quiz.js' | relative_url }}"></script>
   {% endif %}
