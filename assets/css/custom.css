@@ -304,6 +304,10 @@ body.theme-dark .dark-mode-toggle .icon-moon {
     z-index: 99;
   }
 
+  .site-nav.active {
+    display: block;
+  }
+
   .nav-links {
     flex-direction: column;
     width: 100%;
@@ -318,11 +322,6 @@ body.theme-dark .dark-mode-toggle .icon-moon {
 
   .nav-link:hover {
     background-color: var(--color-bg-secondary);
-  }
-
-  /* When menu is checked, show nav */
-  .menu-toggle:checked ~ .site-nav {
-    display: block;
   }
 }
 

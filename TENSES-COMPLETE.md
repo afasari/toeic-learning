@@ -792,4 +792,4 @@ Used to express future actions from a past perspective.
 
 ---
 
-**Next: [Complete Grammar](./GRAMMAR-COMPLETE.md)**
+**Next: [Complete Grammar](./GRAMMAR-COMPLETE.html)**

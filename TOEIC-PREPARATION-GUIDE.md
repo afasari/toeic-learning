@@ -8,35 +8,35 @@ Complete preparation guide untuk skor maksimal TOEIC
 
 ## 📚 Daftar Isi (Table of Contents)
 
-### 1. [Struktur & Overview TOEIC](./TOEIC-STRUCTURE.md)
+### 1. [Struktur & Overview TOEIC](./TOEIC-STRUCTURE.html)
 - 9 Bagian lengkap (Listening & Reading)
 - Pengaturan waktu per section
 - Cara penghitungan skor
 - Strategi umum
 
-### 2. [Listening Section Tips (Part 1-4)](./LISTENING-TIPS.md)
+### 2. [Listening Section Tips (Part 1-4)](./LISTENING-TIPS.html)
 - Part 1: Photographs
 - Part 2: Question-Response
 - Part 3: Conversations
 - Part 4: Short Talks
 
-### 3. [Reading Section Tips (Part 5-7)](./READING-TIPS.md)
+### 3. [Reading Section Tips (Part 5-7)](./READING-TIPS.html)
 - Part 5: Incomplete Sentences
 - Part 6: Text Completion
 - Part 7: Reading Comprehension
 
-### 4. [All Tenses Complete](./TENSES-COMPLETE.md)
+### 4. [All Tenses Complete](./TENSES-COMPLETE.html)
 - 12 Tenses utama
 - Future in the Past
 - Rumus, penggunaan, dan contoh
 
-### 5. [Complete Grammar](./GRAMMAR-COMPLETE.md)
+### 5. [Complete Grammar](./GRAMMAR-COMPLETE.html)
 - Parts of Speech (Noun, Verb, Adj, Adv, dll)
 - Subject-Verb Agreement
 - Prepositions, Articles, Pronouns
 - Conjunctions
 
-### 6. [Advanced Grammar](./ADVANCED-GRAMMAR.md)
+### 6. [Advanced Grammar](./ADVANCED-GRAMMAR.html)
 - Conditional Sentences ( semua jenis)
 - Passive Voice (semua tenses)
 - Reported Speech
@@ -44,14 +44,14 @@ Complete preparation guide untuk skor maksimal TOEIC
 - Participles
 - Relative Clauses
 
-### 7. [TOEIC Vocabulary](./VOCABULARY-TOEIC.md)
+### 7. [TOEIC Vocabulary](./VOCABULARY-TOEIC.html)
 - Business terminology
 - Office & workplace
 - Travel & transportation
 - Banking & finance
 - Corporate communication
 
-### 8. [Quick Reference & Cheatsheet](./QUICK-REFERENCE.md)
+### 8. [Quick Reference & Cheatsheet](./QUICK-REFERENCE.html)
 - Common mistakes to avoid
 - Time management
 - Guessing techniques
